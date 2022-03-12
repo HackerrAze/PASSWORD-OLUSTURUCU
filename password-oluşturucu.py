@@ -13,6 +13,7 @@ def güncelle():
     """)
     
 gün = input("Toolsu Güncellemek İstiyormusun? [E/h] ")
+os.system('clear')
 
 if gün == "E" or gün == "e":
     güncelle()
